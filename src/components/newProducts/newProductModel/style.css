@@ -1,0 +1,35 @@
+.model_main_container {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-height: 100vh;
+  width: 100%;
+  bottom: 0;
+}
+.model_main_container .main_flex_div {
+display: flex;
+justify-content: end;
+}
+.model_main_container .main_flex_div .model_content_main_div {
+  background: aquamarine;
+  width: 40%;
+  min-height: 100vh;
+}
+.model_main_container .main_flex_div .model_content_main_div .image_div {
+  display: flex;
+  justify-content: center;
+}
+.model_main_container .main_flex_div .model_content_main_div .image_div img {
+  height: 150px;
+}
+.model_main_container .main_flex_div .model_content_main_div .price_div p {
+  text-align: center;
+}
+.model_main_container .main_flex_div .model_content_main_div .stock_div p {
+  text-align: center;
+}
+.model_main_container .main_flex_div .model_content_main_div .button_div {
+  display: flex;
+  justify-content: center;
+}

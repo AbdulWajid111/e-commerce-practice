@@ -1,0 +1,44 @@
+.main_container_reno_city {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main_container_reno_city .main_content_div {
+  background: aquamarine;
+  width: 30%;
+  margin: 10px 20px;
+}
+.main_container_reno_city .active{
+  border: 5px solid brown;
+}
+.main_container_reno_city .main_content_div .image_div {
+  display: flex;
+  justify-content: center;
+}
+.main_container_reno_city .main_content_div .image_div img {
+  height: 150px;
+}
+.main_container_reno_city .main_content_div .product_name p {
+  text-align: center;
+  margin: 0px;
+  padding: 5px 0px;
+}
+.main_container_reno_city .main_content_div .product_price p {
+  text-align: center;
+    margin: 0px;
+  padding: 5px 0px;
+}
+.main_container_reno_city .main_content_div .yearly_saving p {
+  text-align: center;
+  margin: 0px;
+  padding: 5px 0px;
+}
+.main_container_reno_city .main_content_div .co_2_saving p {
+  text-align: center;
+  margin: 0px;
+  padding: 5px 0px;
+}
+.main_container_reno_city .main_content_div .button_div{
+display: flex;
+justify-content: center;
+}

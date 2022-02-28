@@ -1,0 +1,60 @@
+.reno_model_main_container {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+.reno_model_main_container .main_flex_div {
+  display: flex;
+  justify-content: end;
+}
+.reno_model_main_container .main_flex_div .reno_model_main_content {
+  background: yellowgreen;
+  width: 50%;
+  min-height: 100vh;
+}
+.reno_model_main_container .main_flex_div .reno_model_main_content .image_div {
+  display: flex;
+  justify-content: center;
+}
+.reno_model_main_container
+  .main_flex_div
+  .reno_model_main_content
+  .image_div
+  img {
+  height: 150px;
+}
+.reno_model_main_container
+  .main_flex_div
+  .reno_model_main_content
+  .product_name
+  p {
+  text-align: center;
+}
+.reno_model_main_container
+  .main_flex_div
+  .reno_model_main_content
+  .price_div
+  p {
+  text-align: center;
+}
+.reno_model_main_container
+  .main_flex_div
+  .reno_model_main_content
+  .yearly_saving
+  p {
+  text-align: center;
+}
+.reno_model_main_container
+  .main_flex_div
+  .reno_model_main_content
+  .co_2_saving
+  p {
+  text-align: center;
+}
+.reno_model_main_container .main_flex_div .reno_model_main_content .button_div {
+  display: flex;
+  justify-content: center;
+}

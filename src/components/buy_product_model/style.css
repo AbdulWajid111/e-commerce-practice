@@ -1,0 +1,40 @@
+.main_buy_product_div {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+}
+.main_buy_product_div .main_flex_div {
+  display: flex;
+  justify-content: end;
+}
+.main_buy_product_div .main_flex_div .buy_prodcut_main_content_div {
+  width: 50%;
+  background: darkolivegreen;
+  min-height: 100vh;
+}
+.main_buy_product_div
+  .main_flex_div
+  .buy_prodcut_main_content_div
+  .image_details_div {
+  display: flex;
+}
+.main_buy_product_div
+  .main_flex_div
+  .buy_prodcut_main_content_div
+  .image_details_div
+  .image_div
+  img {
+  height: 150px;
+}
+.main_buy_product_div
+  .main_flex_div
+  .buy_prodcut_main_content_div
+  .total_price_div {
+  display: flex;
+  min-height: 100vh;
+  align-items: end;
+  color: white;
+  font-size: 60px;
+}

@@ -1,0 +1,32 @@
+.main_cards_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main_cards_container .main_cards_content {
+  background-color: teal;
+  width: 30%;
+  margin: 10px 20px;
+}
+.main_cards_container .active {
+  border: 5px solid orange;
+}
+.main_cards_container .main_cards_content .image_div {
+  display: flex;
+  justify-content: center;
+}
+.main_cards_container .main_cards_content .image_div img {
+  height: 150px;
+}
+.main_cards_container .main_cards_content .price_div p {
+  background: yellowgreen;
+  text-align: center;
+}
+.main_cards_container .main_cards_content .stock_div p {
+  background: red;
+  text-align: center;
+}
+.main_cards_container .main_cards_content .button_div {
+  display: flex;
+  justify-content: center;
+}

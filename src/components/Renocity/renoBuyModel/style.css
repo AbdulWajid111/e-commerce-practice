@@ -1,0 +1,78 @@
+.buy_model_main_container {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+.buy_model_main_container .flex_main_div {
+  display: flex;
+  justify-content: end;
+}
+.buy_model_main_container .flex_main_div .buy_model_main_content {
+  background: wheat;
+  width: 50%;
+}
+.buy_model_main_container
+  .flex_main_div
+  .buy_model_main_content
+  .details_totals_main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.buy_model_main_container
+  .flex_main_div
+  .buy_model_main_content
+  .details_totals_main_div
+  .details_div {
+  display: flex;
+}
+
+.buy_model_main_container
+  .flex_main_div
+  .buy_model_main_content
+  .details_totals_main_div
+  .details_div
+  .image_div
+  img {
+height: 180px;
+}
+.buy_model_main_container
+  .flex_main_div
+  .buy_model_main_content
+  .details_totals_main_div
+  .details_div
+  .details_div_content {
+padding-left: 20px;
+}
+.buy_model_main_container
+  .flex_main_div
+  .buy_model_main_content
+  .details_totals_main_div
+ .total_price_div{
+   padding: 20px 0px;
+ }
+.buy_model_main_container
+  .flex_main_div
+  .buy_model_main_content
+  .details_totals_main_div
+ .total_price_div .total_price{
+display: flex;
+}
+.buy_model_main_container
+  .flex_main_div
+  .buy_model_main_content
+  .details_totals_main_div
+ .total_price_div .yearly_saving_total_price{
+display: flex;
+}
+.buy_model_main_container
+  .flex_main_div
+  .buy_model_main_content
+  .details_totals_main_div
+ .total_price_div .co2_saving_total_price{
+display: flex;
+}
